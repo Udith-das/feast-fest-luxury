@@ -52,8 +52,7 @@ function HomePage() {
           height={1080}
         />
         <div className="absolute inset-0 luxury-gradient" />
-        <div className="absolute inset-0 flex items-end">
-          <div className="mx-auto w-full max-w-7xl px-6 lg:px-10 pb-20 lg:pb-28 text-ivory">
+        <div className="absolute inset-0 flex items-end pt-20">
             <Reveal>
               <p className="eyebrow !text-gold">
                 <span className="gold-rule mr-3" /> Luxury Catering · Event Management
