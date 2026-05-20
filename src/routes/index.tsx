@@ -54,41 +54,33 @@ function HomePage() {
         <div className="absolute inset-0 luxury-gradient" />
         <div className="relative z-10 mx-auto flex min-h-[calc(100svh-5rem)] w-full max-w-7xl items-start px-6 pt-10 pb-12 text-ivory lg:px-10 lg:pt-16 lg:pb-16">
           <div className="w-full max-w-5xl">
-            <Reveal>
-              <p className="eyebrow !text-gold">
-                <span className="gold-rule mr-3" /> Luxury Catering · Event Management
-              </p>
-            </Reveal>
-            <Reveal delay={120}>
-              <h1 className="mt-4 font-display text-4xl leading-[1.05] sm:text-5xl md:text-6xl lg:text-[4.5rem] xl:text-[5.5rem] max-w-5xl">
-                Crafting Memorable Feasts.
-                <br />
-                <span className="italic text-gold/95">Managing Exceptional Events.</span>
-              </h1>
-            </Reveal>
-            <Reveal delay={240}>
-              <p className="mt-6 max-w-2xl text-ivory/80 text-base lg:text-lg leading-relaxed font-light">
-                From intimate gatherings to grand celebrations, Feast &amp; Fest delivers premium
-                catering and complete event management — so you can enjoy every moment without worry.
-              </p>
-            </Reveal>
-            <Reveal delay={360}>
-              <div className="mt-10 flex flex-col sm:flex-row gap-4">
-                <Link
-                  to="/contact"
-                  className="group inline-flex items-center justify-center gap-3 px-8 py-4 bg-gold text-noir text-[11px] tracking-[0.3em] uppercase hover:bg-ivory transition-colors"
-                >
-                  Get a Quote
-                  <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
-                </Link>
-                <Link
-                  to="/services"
-                  className="inline-flex items-center justify-center gap-3 px-8 py-4 border border-ivory/40 text-ivory text-[11px] tracking-[0.3em] uppercase hover:border-gold hover:text-gold transition-colors"
-                >
-                  Explore Services
-                </Link>
-              </div>
-            </Reveal>
+            <p className="eyebrow !text-gold">
+              <span className="gold-rule mr-3" /> Luxury Catering · Event Management
+            </p>
+            <h1 className="mt-4 font-display text-4xl leading-[1.05] sm:text-5xl md:text-6xl lg:text-[4.5rem] xl:text-[5.5rem] max-w-5xl">
+              Crafting Memorable Feasts.
+              <br />
+              <span className="italic text-gold/95">Managing Exceptional Events.</span>
+            </h1>
+            <p className="mt-6 max-w-2xl text-ivory/80 text-base lg:text-lg leading-relaxed font-light">
+              From intimate gatherings to grand celebrations, Feast &amp; Fest delivers premium
+              catering and complete event management — so you can enjoy every moment without worry.
+            </p>
+            <div className="mt-10 flex flex-col sm:flex-row gap-4">
+              <Link
+                to="/contact"
+                className="group inline-flex items-center justify-center gap-3 px-8 py-4 bg-gold text-noir text-[11px] tracking-[0.3em] uppercase hover:bg-ivory transition-colors"
+              >
+                Get a Quote
+                <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
+              </Link>
+              <Link
+                to="/services"
+                className="inline-flex items-center justify-center gap-3 px-8 py-4 border border-ivory/40 text-ivory text-[11px] tracking-[0.3em] uppercase hover:border-gold hover:text-gold transition-colors"
+              >
+                Explore Services
+              </Link>
+            </div>
           </div>
         </div>
       </section>
