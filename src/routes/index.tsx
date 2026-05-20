@@ -43,7 +43,7 @@ function HomePage() {
   return (
     <Layout>
       {/* HERO */}
-      <section className="relative h-[100svh] min-h-[560px] w-full overflow-hidden">
+      <section className="relative min-h-[100svh] w-full overflow-hidden">
         <img
           src={hero}
           alt="Luxury candle-lit banquet by Feast & Fest"
@@ -52,8 +52,8 @@ function HomePage() {
           height={1080}
         />
         <div className="absolute inset-0 luxury-gradient" />
-        <div className="absolute inset-0 flex items-end pt-24">
-          <div className="mx-auto w-full max-w-7xl px-6 lg:px-10 pb-12 lg:pb-24 text-ivory">
+        <div className="relative z-10 mx-auto flex min-h-[100svh] w-full max-w-7xl items-end px-6 pt-28 pb-12 text-ivory sm:pt-32 lg:px-10 lg:pt-36 lg:pb-24">
+          <div className="w-full max-w-5xl">
             <Reveal>
               <p className="eyebrow !text-gold">
                 <span className="gold-rule mr-3" /> Luxury Catering · Event Management
