@@ -43,7 +43,7 @@ function HomePage() {
   return (
     <Layout>
       {/* HERO */}
-      <section className="relative min-h-[100svh] w-full overflow-hidden">
+      <section className="relative min-h-[100svh] w-full overflow-hidden pt-20">
         <img
           src={hero}
           alt="Luxury candle-lit banquet by Feast & Fest"
@@ -52,7 +52,7 @@ function HomePage() {
           height={1080}
         />
         <div className="absolute inset-0 luxury-gradient" />
-        <div className="relative z-10 mx-auto flex min-h-[100svh] w-full max-w-7xl items-center px-6 pt-24 pb-12 text-ivory sm:pt-28 lg:px-10 lg:pt-32 lg:pb-16">
+        <div className="relative z-10 mx-auto flex min-h-[calc(100svh-5rem)] w-full max-w-7xl items-start px-6 pt-10 pb-12 text-ivory lg:px-10 lg:pt-16 lg:pb-16">
           <div className="w-full max-w-5xl">
             <Reveal>
               <p className="eyebrow !text-gold">
