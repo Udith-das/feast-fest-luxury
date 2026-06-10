@@ -6,9 +6,11 @@ export function Footer() {
     <footer className="bg-noir text-ivory/80">
       <div className="mx-auto max-w-7xl px-6 lg:px-10 py-20 grid gap-14 lg:grid-cols-12">
         <div className="lg:col-span-5">
-          <div className="font-display text-3xl text-ivory">
-            Feast<span className="text-gold"> &amp; </span>Fest
-          </div>
+          <img
+            src="/images/Feast%20%26%20Fest%20Logo.png"
+            alt="Feast & Fest"
+            className="h-12 w-auto brightness-0 invert"
+          />
           <p className="mt-5 max-w-md text-sm font-light leading-relaxed text-ivory/60">
             Premium catering and full-service event management for weddings,
             corporate galas and private celebrations. Crafted with intention.

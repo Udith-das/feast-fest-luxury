@@ -37,8 +37,12 @@ export function Navbar() {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${bg}`}>
       <div className="mx-auto max-w-7xl px-6 lg:px-10 h-20 flex items-center justify-between">
-        <Link to="/" className={`flex items-center gap-2 ${text}`}>
-          <span className="font-display text-xl tracking-wide">Feast<span className="text-gold"> &amp; </span>Fest</span>
+        <Link to="/" className="flex items-center">
+          <img
+            src="/images/Feast%20%26%20Fest%20Logo.png"
+            alt="Feast & Fest"
+            className={`h-10 w-auto transition-all duration-500 ${overDark ? "brightness-0 invert" : ""}`}
+          />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-9">

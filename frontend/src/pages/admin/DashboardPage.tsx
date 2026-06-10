@@ -63,9 +63,13 @@ export default function AdminDashboardPage() {
     <div className="min-h-screen bg-noir text-ivory flex flex-col">
       {/* Header */}
       <header className="border-b border-ivory/10 px-6 lg:px-10 py-5 flex items-center justify-between">
-        <div>
-          <p className="font-display text-xl text-ivory">Feast<span className="text-gold"> &amp; </span>Fest</p>
-          <p className="text-xs tracking-[0.25em] uppercase text-ivory/40 mt-0.5">Admin Dashboard</p>
+        <div className="flex items-center gap-3">
+          <img
+            src="/images/Feast%20%26%20Fest%20Logo.png"
+            alt="Feast & Fest"
+            className="h-8 w-auto brightness-0 invert"
+          />
+          <p className="text-xs tracking-[0.25em] uppercase text-ivory/40">Admin Dashboard</p>
         </div>
         <div className="flex items-center gap-4">
           <button onClick={load} className="w-9 h-9 grid place-items-center border border-ivory/10 hover:border-gold transition-colors">

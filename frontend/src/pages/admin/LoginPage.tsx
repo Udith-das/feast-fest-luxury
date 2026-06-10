@@ -29,10 +29,12 @@ export default function AdminLoginPage() {
     <div className="min-h-screen bg-noir flex items-center justify-center px-6">
       <div className="w-full max-w-md">
         <div className="text-center mb-10">
-          <p className="font-display text-3xl text-ivory">
-            Feast<span className="text-gold"> &amp; </span>Fest
-          </p>
-          <p className="mt-2 text-xs tracking-[0.3em] uppercase text-ivory/40">Admin</p>
+          <img
+            src="/images/Feast%20%26%20Fest%20Logo.png"
+            alt="Feast & Fest"
+            className="h-14 w-auto mx-auto brightness-0 invert"
+          />
+          <p className="mt-3 text-xs tracking-[0.3em] uppercase text-ivory/40">Admin</p>
         </div>
 
         <form onSubmit={onSubmit} className="bg-ivory p-8 md:p-10">
