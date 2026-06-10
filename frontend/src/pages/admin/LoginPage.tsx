@@ -30,9 +30,9 @@ export default function AdminLoginPage() {
       <div className="w-full max-w-md">
         <div className="text-center mb-10">
           <img
-            src="/images/Feast%20%26%20Fest%20Logo.png"
+            src="/images/logo.png"
             alt="Feast & Fest"
-            className="h-14 w-auto mx-auto brightness-0 invert"
+            className="h-20 w-auto mx-auto"
           />
           <p className="mt-3 text-xs tracking-[0.3em] uppercase text-ivory/40">Admin</p>
         </div>

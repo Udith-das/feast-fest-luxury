@@ -7,9 +7,9 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10 py-20 grid gap-14 lg:grid-cols-12">
         <div className="lg:col-span-5">
           <img
-            src="/images/Feast%20%26%20Fest%20Logo.png"
+            src="/images/logo.png"
             alt="Feast & Fest"
-            className="h-12 w-auto brightness-0 invert"
+            className="h-16 w-auto"
           />
           <p className="mt-5 max-w-md text-sm font-light leading-relaxed text-ivory/60">
             Premium catering and full-service event management for weddings,

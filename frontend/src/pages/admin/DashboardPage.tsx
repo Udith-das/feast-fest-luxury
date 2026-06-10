@@ -65,9 +65,9 @@ export default function AdminDashboardPage() {
       <header className="border-b border-ivory/10 px-6 lg:px-10 py-5 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <img
-            src="/images/Feast%20%26%20Fest%20Logo.png"
+            src="/images/logo.png"
             alt="Feast & Fest"
-            className="h-8 w-auto brightness-0 invert"
+            className="h-8 w-auto"
           />
           <p className="text-xs tracking-[0.25em] uppercase text-ivory/40">Admin Dashboard</p>
         </div>

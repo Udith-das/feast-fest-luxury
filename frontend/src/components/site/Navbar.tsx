@@ -39,9 +39,9 @@ export function Navbar() {
       <div className="mx-auto max-w-7xl px-6 lg:px-10 h-20 flex items-center justify-between">
         <Link to="/" className="flex items-center">
           <img
-            src="/images/Feast%20%26%20Fest%20Logo.png"
+            src="/images/logo.png"
             alt="Feast & Fest"
-            className={`h-10 w-auto transition-all duration-500 ${overDark ? "brightness-0 invert" : ""}`}
+            className="h-12 w-auto"
           />
         </Link>
 
